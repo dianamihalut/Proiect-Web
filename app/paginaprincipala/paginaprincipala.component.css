@@ -1,0 +1,95 @@
+.marime{
+    width: 400px;
+}
+
+.pozitie{
+    text-align: center;
+}
+
+.aspect1{
+    font-size: 50px;
+}
+
+.aspect2{
+    font-size: 35px;
+}
+
+.aspect3{
+    font-size: 20px;
+    padding: 45px;
+}
+
+.culoare1{
+    color:rgb(232, 172, 182);
+}
+.culoare2{
+    color:rgb(218, 140, 153);
+}
+
+.aspect4{
+    padding:15px;
+}
+
+.aspect5{
+    font-size: 25px;
+}
+
+.aspect6{
+    width:400px;
+    padding: 45px;
+}
+
+.aspect7{
+    font-size: 19px;
+}
+
+.aspect8{
+    width: 500px;
+}
+
+.aspect9{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.aspect10{
+    width:400px;
+}
+
+.bordura{
+    border: 2px solid rgb(223, 146, 171);
+}
+
+.background{
+    width: 130px;
+    border-radius: 50%;
+}
+
+.culoare3{
+    background-color: pink;
+}
+
+.culoare4{
+    color: rgb(133, 27, 62);
+}
+
+
+.culoare5{
+    background-color: rgb(8, 156, 8);
+}
+
+.culoare5-1{
+    background-color: rgb(105, 65, 16) ;
+}
+
+.culoare5-2{
+    background-color: rgb(198, 173, 29);
+}
+
+.culoare6{
+    color: white;
+}
+
+.marimecard{
+    width: 500px;
+}

@@ -1,0 +1,48 @@
+.marime{
+    width: 200px;
+}
+
+.aspect1{
+    padding-left: 625px;
+    padding-right: 625px;
+}
+
+.culoare1{
+    color: rgb(87, 5, 62);
+}
+
+.culoare2{
+    background-color: pink;
+}
+
+.marimecard{
+    width: 500px;
+}
+
+.marime1{
+    font-size: 13px;
+}
+
+.padding{
+    padding-left: 470px;
+}
+
+.culoare3{
+    color: rgb(255, 255, 255);
+}
+
+
+.culoare4{
+    background-color:  rgb(87, 5, 62);
+}
+
+.aspectpoza{
+    width:350px;
+    height: 450px;
+    padding-left: 80px;
+    padding-right: 70px;
+}
+
+.marginbuton{
+    margin-left: 20px;
+}

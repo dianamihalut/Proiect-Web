@@ -1,0 +1,69 @@
+.marime{
+    width: 200px;
+}
+
+.aspect1{
+    padding-left: 625px;
+    padding-right: 625px;
+}
+
+
+.hr{
+    height: 3px; 
+    width: 80%;
+}
+
+.font{
+    font-size: 50px;
+}
+
+.color{
+    color: palevioletred;
+}
+
+.font1{
+    font-size: 30px;
+}
+
+.aspectpoza{
+    width:350px;
+    height: 350px;
+    padding-left: 80px;
+    padding-right: 70px;
+}
+
+.marime1{
+    width: 600px;
+}
+
+.marime2{
+    width: 420px;
+    padding-right: 20px;
+}
+
+
+
+.aspect3{
+    width: 560px;
+}
+
+
+.padding2{
+    
+    padding-left:50px;
+}
+
+.padding{
+    padding-left: 20px;
+    padding-right:7px;
+}
+
+.padding1{
+    padding-left: 15px;
+    padding-right:10px;
+}
+
+
+.aspect2{
+    font-size: 20px;
+}

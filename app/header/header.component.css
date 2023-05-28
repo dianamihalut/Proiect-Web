@@ -1,0 +1,27 @@
+.marime{
+    font-size: 40px;
+}
+
+.culoare{
+    background-color: rgb(239, 199, 206);
+}
+
+.background{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.aspect{
+    height: 205px;
+}
+
+.aspect1{
+    padding-left: 1%;
+    padding-right: 3%;
+    font-size: 50px;
+}
+
+.marime1{
+    font-size: 12.5px;
+}
+

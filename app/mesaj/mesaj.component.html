@@ -1,0 +1,42 @@
+<div class="container">
+    <form [formGroup]="contactForm" class="form-group">
+
+        <mat-form-field appearance="fill">
+            <mat-label>Nume</mat-label>
+            <input matInput formControlName="nume">
+        </mat-form-field>
+
+        <small *ngIf="contactForm?.get('nume')?.invalid && contactForm?.get('nume')?.touched">Numele trebuie completat!</small>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Email</mat-label>
+            <input matInput formControlName="email">
+        </mat-form-field>
+
+        <small *ngIf="contactForm?.get('email')?.invalid && contactForm?.get('email')?.touched">Email-ul trebuie completat!</small>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Selecteaza</mat-label>
+            <mat-select formControlName="subiect">
+            <mat-option value="Servicii">Servicii</mat-option>
+            <mat-option value="Preturi">Preturi</mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <small *ngIf="contactForm?.get('subiect')?.invalid && contactForm?.get('subiect')?.touched">Subiectul trebuie selectat!</small>
+
+        <mat-form-field appearance="fill">
+            <mat-label>Mesaj</mat-label>
+            <textarea matInput formControlName="mesaj"></textarea>
+        </mat-form-field>
+
+        <small *ngIf="contactForm?.get('mesaj')?.invalid && contactForm?.get('mesaj')?.touched">Mesajul trebuie scris!</small>
+
+        <button type="reset" mat-raised-button class="color" [disabled]="contactForm.invalid" (click)="submitData(contactForm.value)">Trimite mesaj</button>
+        <p *ngIf="isSubmit" class="submitMesaj">{{ submitMesaj }}</p>
+</form>
+</div>
+<br>
+
+
+
